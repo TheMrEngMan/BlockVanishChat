@@ -1,0 +1,19 @@
+name: BlockVanishChat
+main: com.MrEngMan.BlockVanishChat.Main
+author: MrEngMan
+description: Prevent vanished players from accidentally sending chat messages
+api-version: '1.13'
+version: 1.0
+softdepend: [Essentials, SuperVanish]
+
+commands:
+    bvcreload:
+      description: Reload Config
+      usage: '/bvcreload'
+     
+permissions:
+  bvc.bypass:
+    default: false
+  bvc.reload:
+    default: op
+
